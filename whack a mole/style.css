@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.bg {
+    background: url(./assets/fundo.svg);
+    height: 100vh;
+    opacity: 1;
+    display: flex;
+    align-items: space-between;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.toupeira {
+    
+    background: url(./assets/toupeira6.svg);
+    object-fit: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    
+    
+    z-index: 1;
+    
+}
+
+
+.wholes {
+    
+    display: grid;
+    
+    
+   width: 80%;
+   transform: scale(0.8);
+   
+
+    
+    grid-template-areas: 
+    'A B C D'
+    'E F G H'
+    'I J K L';
+    
+}
+
+.toupeira:nth-child(1) {
+    grid-area: A;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+    animation: subiu 800ms;
+    
+    
+}
+
+.toupeira:nth-child(2) {
+    grid-area: B;
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.toupeira:nth-child(3) {
+    grid-area: C;
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.toupeira:nth-child(4) {
+    grid-area: D;
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.toupeira:nth-child(5) {
+    grid-area: E;
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+
+.toupeira:nth-child(6) {
+    grid-area: F;
+    animation: subiu 800ms 1s;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+    
+}
+
+
+.toupeira:nth-child(7) {
+    grid-area: G;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+    
+}
+
+.toupeira:nth-child(8) {
+    grid-area: H;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+    
+}
+
+.toupeira:nth-child(9) {
+    grid-area: I;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+    
+}
+
+
+.toupeira:nth-child(10) {
+    grid-area: J;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+    
+}
+
+
+
+.toupeira:nth-child(11) {
+    grid-area: K;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    animation: subiu 800ms 2s;
+    
+    
+}
+
+.toupeira:nth-child(12) {
+    grid-area: L;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
+    
+    
+}
+
+@keyframes subiu {
+
+    0% {
+        
+
+        background: url(./assets/toupeira6.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        
+        
+    }
+
+    30% {
+        background: url(./assets/toupeira1.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    60% {
+        background: url(./assets/toupeira2.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    80% {
+        background: url(./assets/toupeira3.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    100% {
+        background: url(./assets/toupeira4.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+
+}
